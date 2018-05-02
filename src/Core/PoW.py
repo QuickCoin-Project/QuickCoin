@@ -1,7 +1,7 @@
 # ...blockchain
 # ...Block class definition
 
-miner_address = "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi"
+miner_address = "xxxxx"
 
 def proof_of_work(last_proof):
   # Create a variable that we will use to find
@@ -32,7 +32,7 @@ def mine():
   # we know we can mine a block so 
   # we reward the miner by adding a transaction
   this_nodes_transactions.append(
-    { "from": "network", "to": miner_address, "amount": 1 }
+    { "from": "network", "to": miner_address, "amount": "BlockReward" }
   )
   # Now we can gather the data needed
   # to create the new block
